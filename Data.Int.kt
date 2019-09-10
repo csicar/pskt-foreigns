@@ -7,8 +7,8 @@ val fromNumberImpl = { just: Any ->
   { nothing: Any ->
     { n: Any ->
       n as Number; just as (Any) -> Any
-      if (n.toInt() == n) {
-        just(n)
+      if (n.toInt().toDouble() == n) {
+        just(n.toInt())
       } else {
         nothing
       }
