@@ -1,10 +1,12 @@
 package Foreign.Data.Array
 
+import java.lang.Integer.min
+
 
 val range = { start: Any ->
     { end: Any ->
         start as Int; end as Int
-        start.rangeTo(end)
+        start.rangeTo(end).toList()
     }
 }
 
@@ -204,7 +206,7 @@ val concat = { xss: Any ->
 val filter = { f: Any ->
     { xs: Any ->
         xs as List<Any>; f as (Any) -> Boolean
-        xs.filter(f)
+        xs.filter { f(it) }
     }
 }
 
@@ -259,7 +261,7 @@ val drop = { n: Any ->
         if (n < 1) {
             l
         } else {
-            l.subList(n, l.size)
+            l.subList(min(n, l.size), l.size)
         }
     }
 }

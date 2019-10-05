@@ -15,8 +15,8 @@ val traverseArrayImpl = {
                 { f: Any ->
                     { array: Any ->
                         pure as (Any) -> Any; array as List<Any>; f as (Any) -> Any; map as (Any) -> ((Any) -> Any); apply as (Any) -> ((Any) -> Any)
-                        fun go(bot: Int, top: Int) {
-                            when (bot - top) {
+                        fun go(bot: Int, top: Int): Any {
+                            return when (top - bot) {
                                 0 -> pure(list0)
                                 1 -> map(list1)(f(array[bot]))
                                 2 -> apply(map(list2)(f(array[bot])))(f(array[bot + 1]))
