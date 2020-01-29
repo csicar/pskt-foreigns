@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Data.Semiring;
 
 val intAdd = { x: Any -> { y: Any -> 

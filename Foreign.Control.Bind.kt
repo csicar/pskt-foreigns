@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Control.Bind;
 
 val arrayBind = { arr: Any ->

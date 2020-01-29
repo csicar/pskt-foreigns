@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Data.String.CodeUnits;
 
 val fromCharArray = { a: Any ->

@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Data.Array.NonEmpty.Internal
 
 val fold1Impl = { f: Any ->

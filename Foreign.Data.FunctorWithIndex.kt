@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Data.FunctorWithIndex
 
 val mapWithIndexArray = { i: Any ->

@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Global.Unsafe;
 
 import java.net.URLDecoder

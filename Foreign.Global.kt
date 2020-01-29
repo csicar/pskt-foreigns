@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Global;
 
 import java.io.UnsupportedEncodingException

@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Data.Int.Bits;
 
 import java.lang.Integer.parseInt

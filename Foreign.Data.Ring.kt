@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Data.Ring;
 
 val intSub = { x : Any -> { y: Any ->

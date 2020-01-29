@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Data.String.Regex;
 
 import java.util.regex.PatternSyntaxException

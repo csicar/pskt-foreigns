@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Data.Semigroup;
 
 val concatString = { x: Any -> 

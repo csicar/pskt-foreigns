@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Data.Unfoldable;
 
 val unfoldrArrayImpl = { isNothing: Any ->

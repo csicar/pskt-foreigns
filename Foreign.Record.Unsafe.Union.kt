@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Record.Unsafe.Union;
 
 val unsafeUnionFn = { r1: Any, r2: Any ->

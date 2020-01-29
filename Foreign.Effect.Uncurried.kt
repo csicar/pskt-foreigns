@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Effect.Uncurried;
 
 val mkEffectFn1 = { fn: Any ->

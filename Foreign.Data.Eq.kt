@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Data.Eq;
 
 val refEq = { r1 : Any -> { r2 : Any -> r1 == r2 }}

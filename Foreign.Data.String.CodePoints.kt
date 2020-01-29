@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Data.String.CodePoints;
 
 val __unsafeCodePointAt0 = { fallback: Any ->

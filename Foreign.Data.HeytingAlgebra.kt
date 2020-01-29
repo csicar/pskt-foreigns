@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Data.HeytingAlgebra;
 
 val boolConj = { b1: Any -> { b2: Any -> 

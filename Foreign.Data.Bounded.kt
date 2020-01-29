@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Data.Bounded;
 
 import java.lang.Double.NEGATIVE_INFINITY

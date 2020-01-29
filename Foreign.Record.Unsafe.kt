@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Record.Unsafe;
 
 val unsafeHas =  { label: Any -> { rec: Any -> (rec as Map<Any, Any>).containsKey(label) }}

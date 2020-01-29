@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Data.String.Unsafe;
 
 val charAt = { i: Any ->

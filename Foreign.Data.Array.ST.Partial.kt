@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Data.Array.ST.Partial
 
 val peekImpl ={ i: Any ->

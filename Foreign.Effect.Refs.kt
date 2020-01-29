@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Effect.Ref;
 
 class Ref(var value: Any)

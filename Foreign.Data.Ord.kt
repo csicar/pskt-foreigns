@@ -1,3 +1,4 @@
+@file:Suppress("UNCHECKED_CAST")
 package Foreign.Data.Ord;
 
 fun curry5(f: (Any, Any, Any, Any, Any) -> Any) = {a: Any -> { b: Any -> { c: Any -> {d: Any -> {e: Any ->
