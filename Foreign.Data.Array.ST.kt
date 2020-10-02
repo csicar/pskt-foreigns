@@ -99,12 +99,28 @@ val splice = { i: Any ->
     };
 };
 
+val unsafeFreeze = {xs: Any ->
+    {
+        xs
+    }
+}
+
+val unsafeThaw = {xs: Any ->
+    {
+        xs
+    }
+}
+
 val copyImpl = { xs: Any ->
     {
         xs as MutableList<Any>
         xs.toMutableList()
     };
 };
+
+val freeze = copyImpl
+
+val thaw = copyImpl
 
 val sortByImpl = { comp: Any ->
     { xs: Any ->
